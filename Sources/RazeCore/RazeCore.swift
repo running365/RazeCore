@@ -11,7 +11,7 @@ public class RazeCore {
     ///   - alpha: A number between 0.0 and 1.0 indicating how transparent the color is
     /// - Returns: A UIColor defined by the `hexString` parameter
     
-    internal class func colorFromHexString(_ hexString: String, alpha: CGFloat = 1.0) -> UIColor {
+    class func colorFromHexString(_ hexString: String, alpha: CGFloat = 1.0) -> UIColor {
         
         let r,g,b: CGFloat
         let offset    = hexString.hasPrefix("#") ? 1 : 0
