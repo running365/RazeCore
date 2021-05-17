@@ -26,9 +26,8 @@ final class RazeNetworkingTests: XCTestCase {
             case .failure(let error):
                 XCTFail(error?.localizedDescription ?? "error forming error result")
             }
-            
-            self.wait(for:[expectation],timeout:5)
         }
+        wait(for:[expectation],timeout:10)
     }
     
     

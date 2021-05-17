@@ -10,10 +10,10 @@ import Foundation
 extension RazeCore {
     
     
-    /// Responsible for handling all networking calls
-    /// - Warning: Must create before using any public APIs
     public class Networking {
         
+        /// Responsible for handling all networking calls
+        /// - Warning: Must create before using any public APIs
         public class Manager {
             
             public init(){}
